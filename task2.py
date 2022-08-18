@@ -1,5 +1,4 @@
 import argparse
-import math
 from decimal import Decimal as D
 
 def get_sqrt(num):
