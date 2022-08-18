@@ -10,7 +10,7 @@ def get_simbol_and_count(text):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='Программа для определения скобочной последовательности'
+        description='Программа для определения символа и числа вхождений'
     )
     parser.add_argument("text", help="Строка из латинских символов")
     args = parser.parse_args()
