@@ -9,8 +9,6 @@ def get_sqrt(num):
         answer = new_answer    
     if int(answer) == D(answer):
         return int(answer)
-    else:
-        return False
 
 
 if __name__ == '__main__':
